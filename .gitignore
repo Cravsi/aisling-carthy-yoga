@@ -1,0 +1,5 @@
+# Ignore the inspiration directory
+docs/inspiration/
+
+# Ignore draw.io files
+*.drawio*
