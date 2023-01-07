@@ -1,0 +1,48 @@
+/* @font-face {
+    font-family: 'Aniron Bold';
+    src: url('../assets/fonts/aniron-bold.ttf');
+}
+
+@font-face {
+    font-family: 'Aniron';
+    src: url('../assets/fonts/aniron.ttf');
+} */
+
+:root {
+    --white: #FFFFFF;
+    --black: #1f1f1f;
+    --yellow: #FFBF69;
+    --green: #00A896;
+    --navy: #1C2541;
+}
+
+/* Element Styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+html {
+    font-size: 62.5%;   /* 1rem becomes = 10px */
+    width: 100vw;
+}
+
+body {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--white);
+    font-family: 'minerva', 'Noto Sans', sans-serif;
+    line-height: 2rem
+}
+
+h1 {
+    font-family: 'minerva', 'Noto Sans', sans-serif;
+}
+
+.fab {
+    color: ;
+}
