@@ -6,7 +6,7 @@ A personal website for Aisling with the goal of expanding it out to include yoga
 
 Link to deployed [site](#).
 
-![Responsiveness](/assets/images/#)
+![Responsiveness](assets/images/#)
 
 ## Table of Contents
 
