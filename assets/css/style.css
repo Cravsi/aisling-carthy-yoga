@@ -1,12 +1,12 @@
-/* @font-face {
-    font-family: 'Aniron Bold';
-    src: url('../assets/fonts/aniron-bold.ttf');
+@font-face {
+    font-family: 'minerva-italic';
+    src: url('/assets/fonts/MinervaModern-Italic.ttf');
 }
 
 @font-face {
-    font-family: 'Aniron';
-    src: url('../assets/fonts/aniron.ttf');
-} */
+    font-family: 'montserrat';
+    src: url('/assets/fonts/Montserrat-VariableFont_wght.ttf');
+}
 
 :root {
     --white: #FFFFFF;
@@ -35,14 +35,21 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: var(--white);
-    font-family: 'minerva', 'Noto Sans', sans-serif;
+    font-family: 'monserrat', 'Noto Sans', sans-serif;
     line-height: 2rem
 }
 
 h1 {
-    font-family: 'minerva', 'Noto Sans', sans-serif;
+    font-family: 'minerva-italic', 'Noto Sans', sans-serif;
+    font-size: xx-large;
+}
+
+h2{
+    font-family: 'montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: large;
 }
 
 .fab {
-    color: ;
+    color: var(--yellow);
 }
